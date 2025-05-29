@@ -12,11 +12,19 @@ class Home extends BaseController
         echo view('front/footer_view');
     }
 
+    public function nosotros()
+    {
+        echo view('front/head_view');
+        echo view('front/navbar_view');
+        echo view('front/nosotros');
+        echo view('front/footer_view');
+    }
+
     public function servicios()
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/_servicios');
+        echo view('front/servicios');
         echo view('front/footer_view');
     }
 
@@ -24,7 +32,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/_clientes');
+        echo view('front/clientes');
         echo view('front/footer_view');
     }
 
@@ -32,7 +40,7 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/_contacto');
+        echo view('front/contacto');
         echo view('front/footer_view');
     }
 
@@ -40,7 +48,12 @@ class Home extends BaseController
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/_login');
+        echo view('front/login');
         echo view('front/footer_view');
+    }
+
+        public function error404()
+    {
+        echo view('front/error404');
     }
 }
