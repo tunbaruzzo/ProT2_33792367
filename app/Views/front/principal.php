@@ -22,30 +22,79 @@
 
 
 <!-- Carousel -->
- <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+<div id="miCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="public/assets/img/mision.png" class="d-block w-100 img-fluid" alt="mision" style="max-height: 500px; object-fit: cover;">
+
+    <!-- Mision -->
+    <div class="carousel-item active slide-custom" style="background-image: url('public/assets/img/fondo.mision.png');">
+      <div class="container h-100 d-flex align-items-center">
+        <div class="row w-100">
+          <div class="col-md-6 text-white d-flex flex-column justify-content-center align-items-start">
+            <h2 class="mb-3">Misión</h2>
+            <img src="public/assets/img/robot.mision.png" alt="Decorativa" class="img-fluid" style="max-width: 250px;" />
+          </div>
+          <div class="col-md-6 text-white d-flex align-items-center">
+            <p class="fs-5">
+              Nuestra misión es empoderar a las empresas con soluciones de vanguardia que les permitan tomar decisiones más informadas y eficientes, impulsando su crecimiento y éxito. Nos enorgullece ser el socio de confianza que les ayuda a alcanzar sus objetivos y a mantenerse a la vanguardia de la innovación.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="public/assets/img/objetivo.png" class="d-block w-100 img-fluid" alt="objetivo" style="max-height: 500px; object-fit: cover;">
+
+    <!-- Objetivo -->
+    <div class="carousel-item slide-custom" style="background-image: url('public/assets/img/fondo.objetivo.png');">
+      <div class="container h-100 d-flex align-items-center">
+        <div class="row w-100">
+          <div class="col-md-6 text-white d-flex flex-column justify-content-center align-items-start">
+            <h2 class="mb-3">Objetivo</h2>
+            <img src="public/assets/img/robot.objetivo.png" alt="Decorativa" class="img-fluid" style="max-width: 250px;" />
+          </div>
+          <div class="col-md-6 text-white d-flex align-items-center">
+            <p class="fs-5">
+              Trabajamos para ser el aliado tecnológico de confianza que acompaña a las empresas en la gestión y evolución de su infraestructura IT. Nuestro objetivo es brindar soluciones estables, seguras y eficientes que respalden el crecimiento de cada organización.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="public/assets/img/logros.png" class="d-block w-100 img-fluid" alt="logros" style="max-height: 500px; object-fit: cover;">
+
+    <!--Logros -->
+    <div class="carousel-item slide-custom" style="background-image: url('public/assets/img/fondo.logros.png');">
+  <div class="container h-100 d-flex align-items-center">
+    <div class="row w-100">
+      <!-- Columna izquierda -->
+      <div class="col-md-6 text-white d-flex flex-column justify-content-center align-items-start">
+        <h2 class="mb-3">Nuestros Logros</h2>
+        <img src="public/assets/img/robot.registrate.png" alt="Robot" class="img-fluid" style="max-width: 250px;" />
+      </div>
+
+      <!-- Columna derecha: logros -->
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <div class="logro-item mb-3">
+          <span class="logro-año">2022</span>
+          <span class="logro-texto">Reconocimiento a la excelencia en servicios</span>
+        </div>
+        <div class="logro-item mb-3">
+          <span class="logro-año">2023</span>
+          <span class="logro-texto">Premio a la Innovación Tecnológica</span>
+        </div>
+        <div class="logro-item">
+          <span class="logro-año">2024</span>
+          <span class="logro-texto">Líderes Emergentes en Innovación Tecnológica</span>
+        </div>
+      </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+</div>
+  </div>
+
+  <!-- Controles -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#miCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button class="carousel-control-next" type="button" data-bs-target="#miCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
   </button>
 </div>
 <!-- Fin del Carousel -->

@@ -13,7 +13,7 @@
 .franja-servicios h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  font-family: 'Agrandir Wide', sans-serif; /* o similar */
+  font-family: 'Agrandir Wide', sans-serif; 
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -56,6 +56,33 @@
 .btn-franja:hover {
   opacity: 0.9;
 }
+
+/*carousel*/
+.logro-item {
+  background-color: white;
+  border: 2px solid #ff00ab;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #1d3263;
+  font-weight: 500;
+}
+
+.logro-año {
+  background-color: #ff00ab;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.logro-texto {
+  flex: 1;
+}
+
+
 
 
 /*footer*/
@@ -182,3 +209,35 @@
 html {
   scroll-behavior: smooth;
 }
+
+/*registrate*/
+.registro-form {
+  background-color: #ff00ab;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #ffffff;
+  max-width: 450px;
+  width: 100%;
+}
+
+
+.btn-custom:hover {
+  background-color: #00b2a0;
+  color: black;
+}
+
+
+/* FORMULARIO LOGIN PERSONALIZADO */
+.login-form {
+  background-color: #ff00ab;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #ffffff;
+  max-width: 450px;
+  width: 100%;
+}
+
+
+

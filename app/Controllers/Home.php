@@ -28,11 +28,11 @@ class Home extends BaseController
         echo view('front/footer_view');
     }
 
-    public function clientes()
+    public function registrate()
     {
         echo view('front/head_view');
         echo view('front/navbar_view');
-        echo view('front/clientes');
+        echo view('front/registrate');
         echo view('front/footer_view');
     }
 
